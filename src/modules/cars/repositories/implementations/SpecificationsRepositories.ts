@@ -9,7 +9,7 @@ class SpecificationsRepository implements ISpecificationsRepository {
   private repository: Repository<Specification>;
 
   constructor() {
-    this.repository = getRepository("Specification");
+    this.repository = getRepository(Specification);
   }
 
   async create({
