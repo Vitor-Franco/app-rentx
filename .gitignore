@@ -1,4 +1,10 @@
 node_modules
+.vscode
 yarn-error.log
 yarn.lock
-.vscode
+coverage
+.env
+tmp/*
+!tmp/.gitkeep
+dist
+ormconfig.json
